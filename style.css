@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+*{
+	font-family: 'Roboto', Impact, Arial;
+	margin: 0;
+}
+
+#fond-principal{
+	background: url(Logo-Photos/Photos/header.jpg) no-repeat center fixed;
+	height: 110em;
+	background-size: cover;
+}
+#fond-secondaire{
+	background: url(Logo-Photos/Photos/header.jpg) no-repeat center fixed;
+	height: 85em;
+	background-size: cover;
+}
+.logo-site:hover{
+	transform-style: preserve-3d;
+	animation: rotate 3s 1s;
+}
+	@keyframes rotate {
+		0% {
+			transform: rotate(0deg);
+		}
+		50% {
+			transform: rotate(180deg);
+		}
+		100% {
+			transform: rotate(360deg);
+		}
+	}
+
+.nav{
+	height: 5em;
+	width: 100%;
+	display: flex;	
+}
+
+.nav ul{
+	list-style: none;
+	font-weight: 300;
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: space-around;
+	
+}
+header img{
+	background-size: cover;
+	height: 30vh;
+}
+a {
+	text-decoration: none;
+	color: black;
+	transition: transforme .5s;
+}
+a:hover{
+	color: rgba(0, 0, 0, 0.727);
+}
+li {
+	font-size: 1.5em;
+	text-decoration: none;
+	background: linear-gradient(to top, rgb(1, 3, 16) 0%, rgba(1, 3, 16, 0.581) 8%, transparent 1%) no-repeat left bottom / 0 100%;
+	transition: background-size .5s;
+}
+  
+li:hover {
+	background-size: 100% 100%;
+}
+/* Présentation */
+h1{
+	text-align: center;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	font-size: 7em;
+	font-weight: 100;
+}
+.presentation p{
+	margin-bottom: 2%;
+	font-size: 1.2em;
+	font-weight: 00;
+	margin-left: 2%;
+	margin-right: 2%;
+	text-align: justify;
+	line-height: 1.6em;
+}
+.presentation-deux p{
+	margin-bottom: 2%;
+	font-size: 1.2em;
+	font-weight: 100;
+	margin-left: 2%;
+	margin-right: 2%;
+	text-align: justify;
+	line-height: 1.6em;
+
+}
+
+.bienvenue{
+	font-size: 2em;
+	text-align: center;
+	margin-bottom: 2%;
+}
+.conclusion-bvn{
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: 400;
+}
+strong{
+	color: rgba(0, 0, 0, 0.700);
+}
+.logo-photo{
+	height: 4em;
+	margin-right: 1%;
+	display: block;
+	margin: auto;
+}
+.p-tarif-information{
+	margin-top: 2%;
+	margin-bottom: 2%;
+	font-size: 1.2em;
+	font-weight: 100;
+	text-align: center;
+}
+.p-tarif p{
+	margin-bottom: 2%;
+	font-size: 1.2em;
+	font-weight: 100;
+	text-align: center;
+	font-weight: bold;
+	
+}
+/* Grid */
+.gallery {
+	margin-top: 5%;
+	margin-left: 2%;
+	margin-right: 2%;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 15px;
+}
+
+.gallery__img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+	transition: transform .25s;
+}
+.gallery__img:hover{
+	transform: scale(1.1);
+}
+.gallery__item--1 {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 3;
+}
+.gallery__item--2 {
+	grid-column-start: 3;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: 3;
+}
+.gallery__item--3 {
+	grid-column-start: 5;
+	grid-column-end: 9;
+	grid-row-start: 1;
+	grid-row-end: 6;
+}
+.gallery__item--4 {
+	grid-column-start: 1;
+	grid-column-end: 5;
+	grid-row-start: 3;
+	grid-row-end: 6;
+}
+.gallery__item--5 {
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 6;
+	grid-row-end: 10;
+}
+.gallery__item--6 {
+	grid-column-start: 4;
+	grid-column-end: 9;
+	grid-row-start: 6;
+	grid-row-end: 10;
+}
+/*projet*/
+.video-logo{
+	height: 250px;
+	display: block;
+	margin: auto;
+
+}
+#projet p{
+	margin-bottom: 2%;
+	font-size: 1.5em;
+	font-weight: 100;
+	margin-top: 3%;
+	margin-left: 2%;
+	margin-right: 2%;
+	text-align: center;
+}
+.collection{
+	margin-bottom: 2%;
+	font-size: 2em;
+	font-weight: 100;
+	margin-top: 5%;
+	margin-bottom: 3%;
+	margin-left: 2%;
+	margin-right: 2%;
+	text-align: center;
+	
+}
+
+
+/* tarif et contact*/
+.et{
+	text-align: center;
+	font-size: 10em;
+	font-weight: 300;
+	color: aliceblue;
+	width: 10%;
+	margin: auto;
+	background-color: black;
+	border: 3px black solid;
+	border-radius: 50px;
+}
+.separation-et{
+	margin-top: 5%;
+}
+.iframe-contact{
+}
+.iframe-contact iframe{
+	display: flex;
+	border: none;
+	width: 600px;
+	height: 1400px;
+	margin: auto;
+	margin-top: 3%;
+}
+.table-style{
+	border-collapse: collapse;
+	min-width: 230px;
+	width: auto;
+	margin: 0 auto 3% auto;	
+}
+thead tr{
+	color: rgba(0, 0, 0, 0.576);
+	height: 10%;
+}
+thead tr th{
+	text-align: center;
+	font-size: 1.8em;
+
+}
+tbody th, tbody td{
+	text-align: left;
+	padding: 15px 0 0 0;
+}
+
+.tab-tarif-right{
+	text-align: right
+}
+
+.container-tab{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 50%;
+	margin: 0 auto;
+}
+.tab-Institutionnel{
+	margin-bottom: 4%;
+}
+.reseaux{
+	display: flex;
+	justify-content:center;
+	width: 40%;
+	margin: auto;
+}
+.reseau-1{
+	margin-right: 2%;
+}
+.reseau-2{
+	margin-right: 2%;
+}
+.img-reseaux{
+	height: 5em;
+	margin: 20%;
+}
+/*footer*/
+footer p{
+	font-size: 1em;
+	text-align: center;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	font-weight: 300;
+}
+footer a{
+	border-bottom: 1px black solid;
+}
+@media screen and (max-width: 1014px){
+	#fond-principal{
+	height: 70vh;
+	background-size: cover;
+}
+	#fond-secondaire{
+	height: 50vh;
+	background-size: cover;
+}
+	/*navigation*/
+	.nav ul{
+		font-size: 0.8em;
+		font-weight: 100;
+	}
+	li {
+		background: none;
+	}
+	h1{
+		font-size: 3em;
+	}
+	.li-souligne-mobile{
+		text-decoration: underline;
+	}
+	.bienvenue{
+		font-size: 1.5em;
+		text-align: center;
+		margin-top: 5%;
+		margin-bottom: 8%;
+	}
+	.logo-photo-left{
+		float: left;
+		height: 3em;
+		margin-right: 3%;
+	}
+	.presentation p{
+		font-size: 1em;
+		font-weight: 100;
+		margin-left: 2%;
+		margin-right: 2%;
+		line-height: 1.6em;
+	}
+	.presentation-deux p{
+		margin-top: 3%;
+		font-size: 1em;
+		font-weight: 100;
+		margin-left: 2%;
+		margin-right: 2%;
+		line-height: 1.6em;
+	}
+	.conclusion-bvn{
+		text-align: center;
+		font-size: 1.2em;
+		font-weight: 400;
+	}
+	/*projet*/
+	.video-logo{
+		height: 100px;
+		display: block;
+		margin: auto;
+	}
+	#projet p{
+		margin-bottom: 2%;
+		font-size: 1.1em;
+		font-weight: 100;
+		margin-top: 3%;
+		margin-left: 2%;
+		margin-right: 2%;
+		text-align: center;
+	}
+	.p-tarif-information{
+		margin-left: 4%;
+		margin-right: 4%;
+		margin-top: 3%;
+		margin-bottom: 2%;
+		font-size: 1em;
+		font-weight: 100;
+		text-align: center;
+	}
+	.p-tarif p{
+		margin-top: 5%;
+		margin-bottom: 2%;
+		font-size: 1em;
+		text-align: center;
+		font-weight: 400;
+	}
+	.et{
+		text-align: center;
+		font-size: 5em;
+		font-weight: 300;
+		color: aliceblue;
+		width: 20%;
+		margin: auto;
+		background-color: black;
+		border: 3px black solid;
+		border-radius: 50px;
+	}
+	.iframe-contact iframe{
+		display: flex;
+		border: none;
+		width: 100%;
+		height: 1300px;
+		margin: auto;
+		margin-top: 3%;
+	}
+	.img-reseaux{
+		height: 3em;
+		margin: 10%;
+	}
+	header img{
+		background-size: cover;
+		height: 25vh;
+	}
+	/*footer*/
+	footer p{
+		font-size: 1em;
+		text-align: center;
+		margin-top: 2%;
+		margin-bottom: 2%;
+		font-weight: 300;
+	}
+	footer a{
+		border-bottom: 1px black solid;
+	}
+}
