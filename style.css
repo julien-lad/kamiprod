@@ -308,12 +308,12 @@ footer a{
 	#fond-principal{
 	background: url(Logo-Photos/Photos/header-small.jpeg) no-repeat center fixed;
 	height: 90vw;
-	background-size: cover;
+	background-size: none;
 }
 	#fond-secondaire{
 	background: url(Logo-Photos/Photos/header-small.jpeg) no-repeat center fixed;
 	height: 75vw;
-	background-size: cover;
+	background-size: none;
 }
 	/*navigation*/
 	.nav ul{
