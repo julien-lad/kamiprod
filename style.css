@@ -307,17 +307,13 @@ footer a{
 @media screen and (max-width: 1014px){
 	#fond-principal{
 	background: url(Logo-Photos/Photos/header.jpg) no-repeat top fixed;
-	width: 100%;
-	height: auto;
-	aspect-ratio: 16 / 9;
-	background-size: 100%;
+	height: 90vw;
+	background-size: 100% cover;
 }
 	#fond-secondaire{
 	background: url(Logo-Photos/Photos/header.jpg) no-repeat top fixed;
-	width: 100%;
-	height: auto;
-	aspect-ratio: 16 / 9;
-	background-size: 100%;
+	height: 75vw;
+	background-size: 100% cover;
 }
 	/*navigation*/
 	.nav ul{
