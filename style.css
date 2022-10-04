@@ -306,14 +306,14 @@ footer a{
 }
 @media screen and (max-width: 1014px){
 	#fond-principal{
-	background: url(Logo-Photos/Photos/header.jpg) no-repeat top fixed;
+	background: url(Logo-Photos/Photos/header.jpg) no-repeat center;
 	height: 90vw;
-	background-size: 100%;
+	background-size: cover;
 }
 	#fond-secondaire{
-	background: url(Logo-Photos/Photos/header.jpg) no-repeat top fixed;
+	background: url(Logo-Photos/Photos/header.jpg) no-repeat center;
 	height: 75vw;
-	background-size: 100%;
+	background-size: cover;
 }
 	/*navigation*/
 	.nav ul{
