@@ -310,14 +310,14 @@ footer a{
 	width: 100%;
 	height: auto;
 	aspect-ratio: 16 / 9;
-	background-size: cover;
+	background-size: 100%;
 }
 	#fond-secondaire{
 	background: url(Logo-Photos/Photos/header.jpg) no-repeat top fixed;
 	width: 100%;
 	height: auto;
 	aspect-ratio: 16 / 9;
-	background-size: cover;
+	background-size: 100%;
 }
 	/*navigation*/
 	.nav ul{
