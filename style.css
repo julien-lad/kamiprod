@@ -306,15 +306,19 @@ footer a{
 }
 @media screen and (max-width: 1014px){
 	#fond-principal{
-	background: url(Logo-Photos/Photos/header.jpg) no-repeat center;
-	height: 90vw;
-	background-size: cover;
-}
+		background: url(Logo-Photos/Photos/header.jpg) no-repeat center;
+		height: 90vw;
+		background-size: cover;
+	}
 	#fond-secondaire{
-	background: url(Logo-Photos/Photos/header.jpg) no-repeat center;
-	height: 75vw;
-	background-size: cover;
-}
+		background: url(Logo-Photos/Photos/header.jpg) no-repeat center;
+		height: 75vw;
+		background-size: cover;
+	}
+	header img{
+		background-size: cover;
+		height: 40vw;
+	}
 	/*navigation*/
 	.nav ul{
 		font-size: 0.8em;
@@ -413,10 +417,6 @@ footer a{
 	.img-reseaux{
 		height: 3em;
 		margin: 10%;
-	}
-	header img{
-		background-size: cover;
-		height: 25vh;
 	}
 	/*footer*/
 	footer p{
