@@ -307,14 +307,14 @@ footer a{
 @media screen and (max-width: 1014px){
 	#fond-principal{
 	background: url(Logo-Photos/Photos/header.jpg) no-repeat top fixed;
-	width: 100%
+	width: 100%;
 	height: auto;
 	aspect-ratio: 16 / 9;
 	background-size: cover;
 }
 	#fond-secondaire{
 	background: url(Logo-Photos/Photos/header.jpg) no-repeat top fixed;
-	width: 100%
+	width: 100%;
 	height: auto;
 	aspect-ratio: 16 / 9;
 	background-size: cover;
